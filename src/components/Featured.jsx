@@ -4,7 +4,7 @@ const Featured = () => {
   return (
     <div className="w-full pt-20 ">
       <div className="w-full px-20 border-b-[1px] border-zinc-400 pb-20 ">
-        <h1 className="text-8xl font-[Neue_Montreal] tracking-tight ">
+        <h1 className="text-8xl font-['Neue_Montreal'] tracking-tight ">
           Featured Projects{" "}
         </h1>
       </div>

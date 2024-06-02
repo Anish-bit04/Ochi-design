@@ -16,7 +16,7 @@ const EyesTwo = () => {
   return (
     <div className="eyes w-full h-screen overflow-hidden">
       <div className=' absolute  w-full h-full bg-cover bg-center bg-[#cdea68]'>
-      <div className="Heading h-screen font-['MADE_Outer_Sans_Alt'] flex flex-col items-center justify-center">
+      <div className="Heading h-screen font-['Founders_Grotesk_Extra_Condensed'] flex flex-col items-center justify-center">
       {["READY","TO START","THE PROJECT?"].map((item,index)=>{
             return <h1 className="text-[10vw] leading-none tracking-tighter ">{item}</h1>
         })}
