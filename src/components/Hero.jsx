@@ -17,12 +17,12 @@ const Hero = () => {
             
         </div>
         
-        <div className=" font-[Neue_Montreal] border-t border-zinc-500  mt-32 flex justify-between items-center py-5 px-20">
+        <div className=" font-[Neue_Montreal] border-t border-zinc-500  mt-36 flex justify-between items-center py-5 px-20">
           {["For public and private companies","From the first pitch to IPO"].map((item,index)=> (
           <p className=' text-xl font-normal tracking-tight leading-none'>{item}</p>
           ))}
           <div className="start flex items-center gap-5">
-            <div className="px-5 py-2 border-[1px] border-zinc-500 font-light  text-md uppercase rounded-full"> start the project   </div>
+            <div className="px-5 py-2 border-[1px] border-zinc-500 font-medium text-zinc-600  text-lg uppercase rounded-full"> start the project   </div>
               <div className="w-10 h-10 border-[1px] border-zinc-500 flex items-center justify-center rounded-full "> 
               <span className='rotate-[45deg] '><FaArrowUpLong/></span>
                </div>
