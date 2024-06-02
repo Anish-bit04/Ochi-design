@@ -6,3 +6,7 @@ Sections
 5. Eyes
 6. Featured Products
 7. ThreeCards
+
+
+yellow-#cdea68
+green- #004d43

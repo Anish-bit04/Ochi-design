@@ -95,7 +95,7 @@ const Featured = () => {
         </div>
       </div>
       <div className="bigbutton mt-[10vw] flex items-center justify-center ">
-      <div className=" flex  items-center justify-center gap-9 px-5 py-2 border-[1px] w-[17vw] h-[7vh] border-zinc-900 bg-zinc-900 font-medium text-zinc-100  text-lg uppercase rounded-full"> VIEW ALL CASE STUDIES 
+      <div className=" flex  items-center justify-center gap-9 px-5 py-2 border-[1px] w-[17vw] h-[8vh] border-zinc-900 bg-zinc-900 font-medium text-zinc-100  text-lg uppercase rounded-full"> VIEW ALL CASE STUDIES 
       <div className="inline-block rounded-full h-3 w-3 bg-zinc-100 "></div>
        </div>
     
