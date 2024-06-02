@@ -2,7 +2,7 @@ import React from "react";
 
 const ThreeCards = () => {
   return (
-    <div className="w-full h-screen bg-zinc-100 flex items-center px-32  gap-5">
+    <div className="w-full h-screen flex items-center px-32 -mt-[5vw] gap-5">
       <div className="cardcontainer  h-[50vh] w-1/2">
         <div className="card relative rounded-2xl w-full h-full bg-[#004d43] flex items-center justify-center ">
           <img
