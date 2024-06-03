@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=' flex gap-5 w-full h-screen p-20  font-["Founders_Grotesk_Extra_Condensed"]'>
+    <div className=' flex gap-5 w-full h-screen p-20  font-["Founders_Grotesk_Extra_Condensed"] text-zinc-800'>
         <div className="w-1/2 h-full flex flex-col justify-between ">
             <div className="heading">
             <h1 className='text-[8vw] font-semibold uppercase leading-none -mb-10'>Eye-</h1>
@@ -22,16 +22,28 @@ const Footer = () => {
             <div className="presentation">
             <h1 className='text-[5vw] font-semibold uppercase leading-none -mb-10'>Presentations
             </h1>
-            <div className='dets w-1/2 font-["Neue_Montreal"] mt-20'>
+            <div className="linkmain w-full flex justify-between">
+            <div className='dets w-1/2 font-["Neue_Montreal"] mt-20 h-[70vh] flex flex-col justify-between'>
+              <div className="wrapper">
+              <h1 className='text-xl mb-5'>A:</h1>
                 {["Instagram","Behance","Facebook","Twitter"].map((item,index)=>{
-                    return   <a className='block text-xl font-regular  ' href="#">{item}</a>
-                })}
-              
-                
+                    return   <a className='block text-xl font-regular underline underline-offset-4 decoration-zinc-500 m-2' href="#">{item}</a>
+                })}  
+                </div>
+                <div className="copyright text-zinc-400 tracking-wider">&copy; Created by Anish, 2024</div>
             </div>
-            <div className='w-1/2'> asdgfasd</div>
-           
+            <div className='dets2 w-1/2 font-["Neue_Montreal"] h-[38vh] flex flex-col justify-between mt-[20vw]'>
+              <div className="wrapper">
+              <h1 className='text-xl mb-5'>B:</h1>
+                {["Home","Services","Our Work ","About Us","Insights","Contact Us"].map((item,index)=>{
+                    return   <a className='block text-xl font-regular underline underline-offset-4 decoration-zinc-500 m-2' href="#">{item}</a>
+                })} 
+                </div>
+                 <div className="copyright text-zinc-400 tracking-wider">&copy; Created by Anish, 2024</div>
+            </div>
+            </div>
         </div>
+        
     </div>
   )
 }

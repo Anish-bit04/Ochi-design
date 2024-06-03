@@ -5,7 +5,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div className='w-full h-screen bg-zinc-100 pt-1'>
-        <div className="hero mt-40 px-20 font-[MADE Outer Sans Alt] ">
+        <div className="hero mt-40 px-20 font-[MADE Outer Sans Alt] text-zinc-800 ">
         { ["WE CREATE", "EYE-OPENING","PRESENTATIONS"].map((elem,i)=>{
           return <div className="masker overflow-hidden ">
             <div className='w-fit flex items-center'>
